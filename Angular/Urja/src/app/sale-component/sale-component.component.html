@@ -1,0 +1,19 @@
+<p>sale-component works!</p>
+
+
+<p   *ngFor="let sale of GraphData">
+
+    {{sale.sale}}
+ </p>
+
+<div style="height:50%;width:50%;margin-left:35%">
+    <canvas id="yearlyChart" width = '200' height="100" ></canvas>
+</div>
+
+<div style="height:50%;width:50%;margin-left:35%">
+    <canvas id="quarterlyChart" width = '200' height="100" ></canvas>
+</div>
+
+<div style="height:50%;width:50%;margin-left:35%">
+    <canvas id="monthlyChart" width = '200' height="100"chart-colours="piecolors" ></canvas>
+</div>
